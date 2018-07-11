@@ -9,4 +9,3 @@ from Controller import *
 route = Routing()
 
 route.get('/', MainController)
-route.get('/404', NotFoundController)
