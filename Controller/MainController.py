@@ -4,4 +4,4 @@ from torn.api.app import Controller
 
 class MainController(Controller):
     def index():
-        return "<h1>Hello World</h1>"
+        return self.render("index.html", name="World")
