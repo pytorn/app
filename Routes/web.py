@@ -10,4 +10,4 @@ route = Routing()
 
 # args => route, name (to be unique), Controller
 route.get('/', 'index', MainController)
-route.get('/{name}', 'withargs', SampleController)
+route.get('/{name}-reviews', 'withargs', SampleController)

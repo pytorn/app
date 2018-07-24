@@ -4,4 +4,4 @@ from torn.api.app import Controller
 
 class SampleController(Controller):
     def get(self, name):
-        return name
+        return self.render("index.html", name = name)
