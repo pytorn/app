@@ -8,4 +8,6 @@ from Controller import *
 
 route = Routing()
 
-route.get('/', MainController)
+# args => route, name (to be unique), Controller
+route.get('/', 'index', MainController)
+route.get('/{name}', 'withargs', SampleController)
