@@ -1,3 +1,27 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(249, 251, 253, 0.8);
+    text-align: center;
+}
+
+.content_wrap {
+    padding: 7rem;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    padding: 4px 0;
 }
