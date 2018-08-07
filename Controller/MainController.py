@@ -3,5 +3,5 @@
 from torn.api.app import Controller
 
 class MainController(Controller):
-    def get(self):
+    def get(self, request):
         return self.render("index.html", name="World")
