@@ -1,12 +1,14 @@
 body {
     font-family: 'Google Sans', sans-serif;
-    background-color: rgba(249, 251, 253, 0.8);
     text-align: center;
 }
 
 .content_wrap {
     padding: 7rem;
     font-size: 2rem;
+}
+.subheader {
+    color: #656565;
 }
 
 h1 {
@@ -25,11 +27,22 @@ ul {
 
 li {
     border: 1px solid #ffd4d4;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 1px 1px #ffd4d4;
     margin: 6px 0;
-    padding: 2px 9px;
+    padding: 9px 9px;
     font-size: 1.1rem;
-    width: fit-content;
+    width: 18%;
     color: rgba(81, 83, 88, 1);
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        display: block;
+        width: calc(100% - 9rem);
+    }
+    .content_wrap {
+        padding: 7rem 0;
+    }
 }
