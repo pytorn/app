@@ -1,6 +1,0 @@
-{
-	"name" 		: "TornApp",
-	"port" 		: 8080,
-	"devmode"	: "dev",
-	"host"		: "http://localhost"
-}
