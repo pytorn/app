@@ -1,15 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Google Sans', sans-serif;
     background-color: rgba(249, 251, 253, 0.8);
     text-align: center;
 }
 
 .content_wrap {
     padding: 7rem;
+    font-size: 2rem;
 }
 
 h1 {
-    font-weight: lighter;
+    font-size: 4rem;
 }
 
 a {
@@ -23,5 +24,12 @@ ul {
 }
 
 li {
-    padding: 4px 0;
+    border: 1px solid #ffd4d4;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ffd4d4;
+    margin: 6px 0;
+    padding: 2px 9px;
+    font-size: 1.1rem;
+    width: fit-content;
+    color: rgba(81, 83, 88, 1);
 }
