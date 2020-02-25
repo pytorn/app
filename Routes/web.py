@@ -4,10 +4,10 @@
 from torn.api.route import Routing
 import sys
 sys.path.append("..")
-from Controller import *
+from Controller import MainController, SampleController
 
 route = Routing()
 
 # args => route, name (to be unique), Controller
-route.get('/', 'index', MainController)
-route.get('/my-name-is-{name}', 'withargs', SampleController, regex={'name': '[a-zA-Z]+'})
+route.add('/', MainController).name('index')
+route.add('/user/{name}', SampleController).args({ 'name': '[a-zA-Z]+' }).name('withargs')

@@ -2,6 +2,7 @@ name: app
 
 web:
   host: http://localhost
-  port: 8080
+  port: 7080
 
+debug: True
 devmode: dev
